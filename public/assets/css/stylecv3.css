@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*------------- Variable --------------*/
+html {
+  --bleu: #2097cd;
+}
+body {
+  background-color: white;
+}
+/*------------- Header -----------------*/
+header {
+  background-color: rgb(43, 43, 43);
+  text-align: center;
+  color: white;
+  margin: 0 100px;
+}
+.conteneur-Monimg {
+  display: inline-block;
+  background-color: var(--bleu);
+  padding: 5px;
+  border-radius: 50%;
+}
+.img {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.presentation {
+  font-size: 25px;
+}
+.graduation {
+  font-size: 20px;
+}
+.info {
+  margin: 4px 0;
+}
+/*----------------- body ---------------*/
+.moi {
+  text-align: center;
+  margin: 10px 100px;
+  padding: 5px 0;
+  background-color: var(--bleu);
+  color: white;
+}
+.body {
+  margin: 0 100px;
+}
+.entete {
+  text-align: center;
+  background-color: var(--bleu);
+  padding: 5px 0;
+  font-size: 20px;
+  color: white;
+}
+.element h4 {
+  text-align: center;
+  margin: 10px 0;
+  color: gray;
+  position: relative;
+  padding-bottom: 5px;
+}
+.element ul li {
+  text-align: center;
+}
+.element ul {
+  list-style-type: none;
+}
+.element p {
+  text-align: center;
+}
+.element h4::after {
+  content: "";
+  background-color: var(--bleu);
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/*----------------- Footer --------------*/
+footer {
+  text-align: center;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  padding: 5px 0;
+}

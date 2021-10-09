@@ -1,0 +1,30 @@
+
+
+.buton:hover {
+    background-color: red;
+    transition: 1s;
+}
+
+fieldset:hover {
+    border-color: blue;
+}
+
+.retour {
+    text-decoration: none;
+    padding-top: 20px;
+    color: white; 
+    background-color: blue;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.retour:hover {
+    transition: 0.7s;
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    text-decoration: none;
+}

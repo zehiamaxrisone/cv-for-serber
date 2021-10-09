@@ -1,0 +1,490 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    
+}
+
+/************************ HEADER HEADER ************************/
+
+.Main {
+    width: 60%;
+    background: lemonchiffon;
+    margin-top: 52px;
+    padding-bottom: 35px;
+    margin-left: 17%;
+    box-shadow : 10px 7px 25px #8EE2FE;
+}
+
+.divphoto {
+    background: red;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.triangle {
+    width: 300px;
+    height: 0px;
+    border-left: 140px solid transparent;
+    border-right: 158px solid transparent;
+    border-top: 50px solid red;
+    margin-left: 25px;
+}
+
+.divphoto img {
+    /* position: relative; */
+    margin-left: 74px;
+    border-radius: 10px;
+    width: 150px;
+    top: 50%;
+    margin-top: 17px;
+    left: 60px;
+}
+
+.divphoto p {
+    text-align: center;
+    color: #fff;
+    font-size: 31px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.profil {
+    margin-top: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+}
+
+.barre {
+    border-left: 6px solid rgb(30, 214, 137);
+    display: inline-block;
+    height:240px;
+    margin-left: 50px;
+    margin-bottom: 26px;
+}
+
+.cercle1 {
+    display: inline-block;
+    position: relative;
+    height: 26px; 
+    width: 26px; 
+    background-color: rgb(30, 214, 137);
+    border-radius: 70%;
+    margin-bottom: 1px;
+    margin-left: -19px;
+}
+
+.description {
+    float: right;
+    font-size: 18px;
+    color: #000;
+    padding: 0 15px;
+    max-width: 100%;
+    margin: 8px 0 auto;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+
+/************************ A PROPOS DE MOI ************************/
+
+.divapopos {
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+ul {
+    padding-inline-start: 20px!important;
+}
+
+.divapopos li {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.divapopos h2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.692);
+    color: #fff;
+    padding: 4px;
+    text-transform: uppercase;
+     
+}
+
+.divapopos .fa-address-card {
+    color: #fff;
+}
+
+.divapopos h3 {
+    color:rgba(255, 0, 0, 0.692);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.divapopos .fa-mobile,.fa-facebook-f,.fa-envelope-square,.fa-google,.fa-fax {
+    color: red;
+}
+
+.barre2 {
+    border-left: 6px solid rgb(30, 214, 137);
+    display: inline-block;
+    height:280px;
+    margin-left: 46px;
+    margin-bottom: 10px;
+}
+
+.cercle2 {
+    display: inline-block;
+    position: relative;
+    height: 26px; 
+    width: 26px; 
+    background-color: rgb(30, 214, 137);
+    border-radius: 70%;
+    margin-bottom: -14px;
+    margin-left: -20px;
+}
+
+
+/************************ FORMATION ************************/
+
+.divformation {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 40px;
+    width: 46%;
+}
+
+.divformation h2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.692);
+    color: #fff;
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+.divformation h4 {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    padding-top: 12px;
+    padding-bottom: 4px;
+}
+
+.divformation p {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.divformation p strong {
+    color: rgb(30, 214, 137);
+    font-size: 18px;
+    padding-top: 8px;
+    
+}
+
+
+/************************ LANGUES ************************/
+
+.sectionlangue {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 26%;
+}
+
+.sectionlangue h2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.692);
+    color: #fff;
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+.sectionlangue li {
+    font-size: 15px;
+    padding-top: 8px;
+    list-style: none;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.barre3 {
+    border-left: 6px solid rgb(30, 214, 137);
+    display: inline-block;
+    height:220px;
+    margin-left: 62px;
+    margin-top: 23px;
+}
+
+
+/************************ COMPETENCES ************************/
+
+.sectioncompetences {
+    display: inline-block;
+    width: 46%;
+    margin-left: 70px;
+}
+
+.sectioncompetences h2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.692);
+    color: #fff;
+    padding: 4px;
+    text-transform: uppercase;
+     
+}
+
+.sectioncompetences li {
+    list-style: none;
+    /* display: inline-block; */
+    padding-top: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/*********************** LOISIRS ************************/
+
+.sectionloisirs {
+    display: inline-block;
+    margin-left: 45px;
+    width: 26%;
+}
+
+.sectionloisirs h2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.692);
+    color: #fff;
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+.sectioncompetences .fa-sort-alpha-up-alt {
+    color: #fff;
+}
+
+.sectionloisirs li {
+    list-style: none;
+    padding-top: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.barre4 {
+    border-left: 6px solid rgb(30, 214, 137);
+    display: inline-block;
+    height:220px;
+    margin-left: 62px;
+    margin-top: 23px;
+}
+
+.cercle { 
+    display: inline-block;
+    position: relative;
+    height: 26px; 
+    width: 26px; 
+    background-color: rgb(30, 214, 137);
+    border-radius: 70%;
+    margin-bottom: -24px;
+    margin-left: -20px;
+}
+
+
+
+/*************** EXPERIENCES PROFESSIONNELLES *******************/
+
+.sectionexperience {
+    display: inline-block;
+    width: 46%;
+    margin-left: 70px;
+}
+
+.sectionexperience h2 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.692);
+    color: #fff;
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+.liexp {
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 6px;
+    margin-left: 30px;
+}
+
+.sectionexperience h4 {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 30px;
+    color:  rgb(30, 214, 137);
+}
+
+
+
+/**************** FOOTER *******************/
+
+footer {
+    height: 120px;
+    clear: both;
+}
+
+.center1 {
+    color: white; 
+    background-color: red;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+                
+}
+
+.center1:hover {
+    transition: 0.7s;
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+
+.center2 {
+
+    color: white; 
+    background-color: blue;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    
+}
+
+.center2:hover {
+    transition: 0.7s;
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    
+}
+
+
+
+
+
+
+/*RESPONSIVE*/ 
+
+ @media screen and (max-width: 1355px) {  
+    .divphoto {
+        background: red;
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        margin-left: 25px;
+    }
+    .triangle {
+        width: 300px;
+        height: 0px;
+        border-left: 140px solid transparent;
+        border-right: 158px solid transparent;
+        border-top: 50px solid red;
+        margin-left: 25px;
+    }
+    .barre {
+        border-left: 6px solid rgb(30, 214, 137);
+        display: inline-block;
+        height:240px;
+        margin-left: 20px;
+        margin-bottom: 26px;
+        transition: 1.1s;
+    }
+
+    
+    
+    
+
+}
+
+@media screen and (max-width: 1293px) {
+    .barre, .barre1, .barre2, .barre3, .barre4, .cercle, .cercle1, .cercle2 {
+        display: none;
+        opacity: 0;
+        transition: 1.1s;
+    }
+
+    .divphoto {
+        margin-left: 40%;
+    }
+    .description {
+        float: left;
+        transition: 1.1s;
+        margin-top: 25px;
+    }
+    .divformation {
+        float: left;
+        transition: 1.1s;
+        margin-top: 25px;
+    }
+    .triangle {
+        display: none;
+        transition: 1.1s;
+    }
+
+} 
+
+@media screen and (max-width:1000px) {
+    .description, .divapopos, .divformation, .sectionlangue, .sectioncompetences, 
+    .sectionloisirs, .sectionexperience {
+        display: block;
+        margin: 20px auto;
+        float: none;
+        width: 100%;
+    }
+    .divphoto {
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto;
+        float: none;
+        
+    }
+    .description {
+        text-align: justify;
+    }
+    .divapopos, .sectioncompetences,.sectionloisirs,.sectionexperience {
+        text-align: center;
+    }
+    .sectionlangue ul li {
+        text-align: center
+    }
+}
+
